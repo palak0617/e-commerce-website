@@ -1,0 +1,31 @@
+*{
+    padding:1%;
+    margin: 0%;
+    background-color:#faedcd;
+}
+.signup{
+    display: flex;
+}
+.form{
+    display: block;
+}
+.forms{
+    justify-content: center;
+    font-size: larger;
+
+}
+#conditions{
+    display: inline;
+}
+img{
+    padding-left: 140px;
+    padding-right: 250px;
+    height: 600px;
+    width: 650px;
+    border-radius: 12px;
+   /* border:2px solid black;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4); */
+}
+button{
+    font-size: larger;
+}
