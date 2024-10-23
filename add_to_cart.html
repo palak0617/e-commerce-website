@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epipla - Shopping Cart</title>
+    <link rel="stylesheet" href="add_to_cart.css">
+</head>
+<body>
+    <header>
+        <h1>Shopping Cart</h1>
+        <nav>
+            <a href="products.html">Continue Shopping</a>
+        </nav>
+    </header>
+
+    <main class="cart-container">
+        <div id="cart-items">
+            
+        </div>
+
+        <div class="cart-summary">
+            <h2>Cart Summary</h2>
+            <div class="summary-details">
+                <p>Total Items: <span id="total-items">0</span></p>
+                <p>Total Amount: ₹<span id="total-amount">0</span></p>
+            </div>
+            <button onclick="checkout()" class="checkout-btn">Proceed to Checkout</button>
+        </div>
+    </main>
+
+    <script src="add_to_cart.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epipla - Furniture Store</title>
+    <link rel="stylesheet" href="add_to_cart.css">
+</head>
+<body>
+    <header>
+        <h1>Epipla Furniture</h1>
+        <nav>
+            <a href="add_to_cart.html" class="cart-link">
+                Cart (<span id="cart-count">0</span>)
+            </a>
+        </nav>
+    </header>
+
+    <main class="products-container">
+        <div class="product-card">
+            <img src="https://placehold.co/300x200" alt="Wooden Chair">
+            <h2>Wooden Chair</h2>
+            <p>Comfortable wooden chair with ergonomic design</p>
+            <p class="price">₹1,999</p>
+            <button onclick="addToCart('chair1', 'Wooden Chair', 1999)">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="https://placehold.co/300x200" alt="Modern Almirah">
+            <h2>Modern Almirah</h2>
+            <p>Spacious wardrobe with contemporary design</p>
+            <p class="price">₹15,999</p>
+            <button onclick="addToCart('almirah1', 'Modern Almirah', 15999)">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="https://placehold.co/300x200" alt="Study Table">
+            <h2>Study Table</h2>
+            <p>Compact study table with storage compartments</p>
+            <p class="price">₹4,999</p>
+            <button onclick="addToCart('table1', 'Study Table', 4999)">Add to Cart</button>
+        </div>
+    </main>
+
+    <script src="add_to_cart.js"></script>
+</body>
+</html>
