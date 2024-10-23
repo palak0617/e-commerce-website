@@ -1,0 +1,43 @@
+#office{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+.cards{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 20px;
+    width:160px;
+    height: 240px;
+    margin: 20px;
+    background-color: white;
+    padding: 20px;
+    
+}
+
+.c{
+    height: 150px;
+    width: 150px; 
+    transition: transform 0.5s;
+}
+.cards:hover{
+    box-shadow: 8px 8px 16px 8px rgba(0,0,0,0.2); 
+    transform: scale(1.1); 
+  animation: bounce 0.5s;
+}
+.pr{
+    font-size: 15px;
+    
+}
+@media(max-width:800px) {
+    body{
+        flex-direction: column;
+    }
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#office{
+    background-color: #fdedec ;
+}

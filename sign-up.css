@@ -1,0 +1,57 @@
+*{
+    /* padding:1%; */
+    margin: 0%;
+    /* background-color:#f7f4ed; */
+}
+body{
+    /* background-image: url('https://img.freepik.com/free-vector/white-gold-geometric-pattern-background-vector_53876-140726.jpg'); */
+    background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgICggICAgIBwcHBwoHBwcHCA8ICQcKFREWFhURExMYHSggGBolGxMTITEhJSkrLi4uFx8zODMsNygtLisBCgoKDQ0NDg0PDysZFRkrNy0tKysrLS0rLS03KysrKysrNy0rKy0tKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAKMBNgMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAAAAQIDB//EABkQAQEBAQEBAAAAAAAAAAAAAAARARICIf/EABkBAQEBAQEBAAAAAAAAAAAAAAABAgMFBP/EABgRAQEBAQEAAAAAAAAAAAAAAAARARIC/9oADAMBAAIRAxEAPwD1aGYo+15sQUEiCgsSDQKwLqKhqNIJuCGggAAosFiRcxRKsBYQqwFWIsZVYQrUQUCIjQEZFiCbgArIigIRQGYKAAsBBVzBYkI1BKsZg0gRnUaRWWTV0VNZFhBAFAxRrMRrMTFXMajNazGIuY0CxIRoFiCiLEhuKCxmDRCkZRuM7is7jKNRIqRBQSILCCRBYCwg3yueUrfDGYuY3ysSryxEjcQpGBuJuLU3GIRYKzGdxnW9xItTcYGoQSIuYuY1mFXMTMaixWa3nlIqkRYg1CJVjKrCFWIRoCMwjUCjMI0QGYkbBNc4jpuMxakYg1uIqRAhFQAB25WLBzdkFMEZibjcSAxCNpFSMRI3uJCkY3EjpCLU5c+V5bhCnLOYuYrWYlXMZixrFFZg0IrI1CBGVigEIAIL8BEFiAIqCaAKibjMbAYjMdIkWkYirApHUUYdKgqDKiVKC/EBQIsAIRRBmEaQEgoKAALmI1gpCAikSKKjIuoIAKKkFREZ1qoogCsgKKgogkGvgUCs1Qq1ACgihQAFVMVFABRFATFADDRcFTMUEUAAFARIoqJuI1rIaAKymgAgKIAAAAACsAjTm1VxhUK0JmrRVEpiLilAaXFZq4gACgAAArWBgiqIoAIABuiCJuioqBREAVEAVBREVQAAAcwGnMABRFFXGmfKo1igiKqsrgqiAKJQFARpc1WVwVQogAii6ybtBBFRWRAECpUVmrVrIDQytAq1lKItEqKVQBAAQAFXNazWGs1FzVEUaFxAVRKIqgAAAuCYtRaBUCqrJQqpSpVQBKrO6tZ1N1KsTdVWaDKggKVAVaibqLEWqxRYjdKiolAEWqIAogKrVZKK1mm6zSpFq1ayLCt0Zq1FqqgCiG6hVSs7qb6WFb3UrnvpOlidOlSsUqxK3UZpSJV3Ss1KsSq1msLQrVGaUK0m6lTSFWoCs0E3QG2gZBMUDAAaAEUAAABcAFAAVQRTUQBPTOg1jGs6gNIoAAAiACgAKAAAIagCIAI//9k=');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.signup{
+    display: flex;
+    padding:8%;
+    /* flex-direction: row; */
+}
+.form{
+    display: flex;
+    padding:1%;
+}
+.forms{
+    font-size: larger;
+    background-color: aliceblue;
+    height: 510px;
+    width: 450px;
+    padding:10%;
+}
+#conditions{
+    display: inline;
+    padding:1%;
+}
+/* img{
+    padding-top: 5%;
+    padding-left: 140px;
+    padding-right: 250px; 
+    height: 600px;
+    width: 650px;
+    border-radius: 12px;
+   border:2px solid black;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4); 
+} */
+button{
+    font-size: larger;
+    padding:1%;
+    color: black;
+    background-color: white;
+}
+button:hover{
+    color: white;
+    background-color: black;
+}
+#image{
+    height: 600px;
+    width: 500px;
+    padding-left: 12%;
+}
