@@ -22,7 +22,7 @@
 .cards:hover{
     box-shadow: 8px 8px 16px 8px rgba(0,0,0,0.2); 
     transform: scale(1.1); 
-  animation: bounce 0.5s;
+  /* animation: bounce 0.5s; */
 }
 .pr{
     font-size: 15px;

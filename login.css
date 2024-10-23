@@ -12,34 +12,26 @@ body{
 
 .signup{
     display: flex;
-    padding:8%;
     /* flex-direction: row; */
+    padding: 8%;
 }
 .form{
     display: flex;
-    padding:1%;
+    padding: 1%;
 }
 .forms{
+    justify-content: center;
     font-size: larger;
     background-color: aliceblue;
-    height: 510px;
-    width: 450px;
-    padding:10%;
+    height: 420px;
+    width: 400px;
+    padding: 10%;
 }
-#conditions{
-    display: inline;
-    padding:1%;
+#image{
+    height: 500px;
+    width: 500px;
+    padding-left: 12%;
 }
-/* img{
-    padding-top: 5%;
-    padding-left: 140px;
-    padding-right: 250px; 
-    height: 600px;
-    width: 650px;
-    border-radius: 12px;
-   border:2px solid black;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4); 
-} */
 button{
     font-size: larger;
     padding:1%;
@@ -49,9 +41,4 @@ button{
 button:hover{
     color: white;
     background-color: black;
-}
-#image{
-    height: 600px;
-    width: 500px;
-    padding-left: 12%;
 }
